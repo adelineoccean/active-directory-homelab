@@ -7,7 +7,7 @@
 - DC01 OS: Ubuntu Server 24.04.3 LTS ARM64
 - CLIENT01 OS: Windows 11 ARM64
 
-## Phase 1 \'97 Ubuntu Server install
+## Phase 1 - Ubuntu Server install
 
 ### Issue: VM rebooted back into installer
 After installation completed, UTM booted the ISO again instead of
@@ -16,7 +16,7 @@ not ejected automatically, eject it manually via UTM's drive icon,
 then power back on. The install had succeeded \'97; it was purely a
 boot order issue.
 
-## Phase 2 \'97 Samba AD DC provisioning
+## Phase 2 - Samba AD DC provisioning
 
 ### Static IP configuration
 Set via /etc/netplan/00-installer-config.yaml:
@@ -39,7 +39,7 @@ Fix:
 
 All three verification checks passed after fix.
 
-## Phase 3 \'97 OUs and users
+## Phase 3 - OUs and users
 
 ### OUs created
 - OU=IT
