@@ -3,10 +3,10 @@
 ## Domain: lab.local
 
 lab.local
-   OU=IT   #IT administrators and technical staff
-   OU=Sales   #Sales department users
-   OU=HR   #Human Resources users
-   OU=Management   #Management and leadership users
+ OU=IT   #IT administrators and technical staff
+ OU=Sales   #Sales department users
+ OU=HR   #Human Resources users
+ OU=Management   #Management and leadership users
 
 ## Users
 
